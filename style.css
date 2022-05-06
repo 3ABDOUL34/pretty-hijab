@@ -1,0 +1,691 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+
+*{
+    font-family: ; 
+}
+
+body{
+    margin: 0 auto;
+}
+
+/* texte menu */
+
+header.header{
+    display: flex;
+    align-items: center;
+}
+
+header.header img {
+width: 80px;
+display: block;
+}
+
+section.top-page{
+    background: url('../images/Bg.jpg');
+    height: 80vh;
+    background-size: cover;
+    paddIng: 30px;
+}
+
+/* page de bienvenu "landing page" */
+
+.landing-page{
+    padding: 20px 50px;
+
+}
+.big-title{
+    color: black;
+    font-family: 'Abril FatFace';
+    font-weight: 50px;
+    font-size: 50px;
+    width: 70px;
+}
+.scroll-down{
+    color:black;
+    text-decoration: none;
+    position: absolute;
+    bottom: 70px;
+}
+/* menu de navigation */
+
+nav.nav {   
+display:flex;
+justify-content: space-between;
+list-style: none;
+width: 600px;
+margin-left: 90px;
+text-decoration:none;
+}
+nav.nav li{
+    font-size: 20px;
+    text-decoration:none;
+}
+a{
+    text-decoration: none;
+}
+
+/* services */
+
+.services{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+.services-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column ;
+}
+.delivery-icon{
+    font-size: 50px;
+    color: #BC2148;
+}
+.service-details{
+    font-weight: 300PX;
+    width: 200px;
+    text-align: center;
+}
+
+
+/* best-sells */
+
+.section-title{
+    font-size: 50;
+    font-family: Abril FatFace, cursive;
+    font-weight: 100;
+    position: relative;
+    text-align: center;
+
+}
+.section-title::before{
+background-color: #BC2148;
+content: "";
+    position: absolute;
+    background-color: ;
+    width: 50px;
+    height: 6px;
+    bottom: 0px;
+}
+.Nos-meilleurs{
+    margin: 100px;
+    justify-content: space-between;
+}
+
+.best-plants{
+    background-colorred;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.plant1{
+    margin: 15px;
+}
+.plant2{
+    margin: 15px;
+}
+.plant3{
+    margin: 15px;
+}
+
+.plant-box{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+}
+.no-grid{
+    min-width: 350px;
+    height: 500px;
+    flex: 1;
+}
+.plant1{
+    background-image: url(../images/nos_meilleures_ventes/1.jpg);
+
+}
+.plant2{
+    background-image: url(../images/nos_meilleures_ventes/2.png);
+
+}
+.plant3{
+    background-image: url(../images/nos_meilleures_ventes/4.png);
+
+}
+.plant4{
+    background-image: url(../images/nos_meilleures_ventes/3.png);
+
+}
+.plant5{
+    background-image: url(../images/nos_meilleures_ventes/5.png);
+
+}
+.plant6{
+    background-image: url(../images/nos_meilleures_ventes/6.png);
+
+}
+.plant7{
+    background-image: url(../images/nos_meilleures_ventes/7.png);
+
+}
+
+.plant-details{
+    position: absolute;
+    width: 50%;
+    bottom: 0px;
+    background-color: rgb(245, 240, 240);
+    padding: 5px 15px;
+    justify-content: space-between;
+}
+.plant-name{
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+
+}
+.plant-price{
+    color:#BC2148;
+     font-weight: 800;
+    line-height: 12px;
+    font-weight: 200;
+    font-size: 15px;
+    text-align: center;
+}
+/* nos plantes */
+
+
+
+
+
+.Nos-produits{
+    margin: 100px;
+}
+
+.hijab-produits{
+    display: grid;
+    min-height: 80;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(2, 400px);
+    background-color: white;
+    justify-content: space-between;
+}
+
+/*.habaya1{
+    background-image: url(../images/nos-produits/ABA1.png);
+    grid-column: 
+    grid-row: ;
+}
+
+.habaya2{
+    background-image: url(../images/nos-produits/ABA2.png);
+    grid-column: 
+    grid-row:
+}
+
+/*.habaya3{
+    background-image: url(../images/nos-produits/ABA3.png);
+    grid-column: 
+    grid-row:
+}
+
+.habaya4{
+    background-image: url(../images/nos-produits/ABA4.png);
+    grid-column: 
+    grid-row:
+}
+
+
+.accessoires3{
+    background-image: url(../images/nos-produits/Bonet1.png);
+    grid-column:
+}*/
+
+.accessoires4{
+    background-image: url(../images/nos-produits/bonet2.png);
+    grid-column:
+}
+/*.accessoires2{
+    background-image: url(../images/nos-produits/ACC5.png);
+    grid-column:
+
+}
+    .accessoires1{
+    background-image: url(../images/nos-produits/ACC1.png);
+    grid-column:
+}*/
+
+
+.foulard1{
+    background-image: url(../images/nos-produits/F3.jpg);
+}
+.foulard2{
+    background-image: url(../images/nos-produits/F11.png);
+    
+}
+.foulard3{
+    background-image: url(../images/nos-produits/FN.png);
+    
+}
+.foulard4{
+    background-image: url(../images/nos-produits/VEST\ VERT.png);
+
+}
+
+
+.robe1{
+    background-image: url(../images/nos-produits/RVERT.png);
+
+}
+/*.robe2{
+    background-image: url(../images/nos-produits/RROUGE.png);
+
+}
+.robe3{
+    background-image: url(../images/nos-produits/ROBER.png);
+
+}
+
+.robe4{
+    background-image: url(../images/nos-produits/RB.png);
+
+}
+.voiles1{
+    background-image: url(../images/nos-produits/V1.png);
+
+}
+.voiles2{
+    background-image: url(../images/nos-produits/V2.png);
+
+}
+.voiles3{
+    background-image: url(../images/nos-produits/V3.png);
+
+}
+.voiles4{
+    background-image: url(../images/nos-produits/vb.png);*/
+
+}
+
+
+
+
+
+
+.soldes{
+    margin: px;
+}
+ .accessoires4{
+     margin: 15px;
+ }
+ .foulard1{
+     margin: 15px;
+ }
+ .foulard2{
+     margin: 15px;
+ }
+ 
+ .foulard3{
+     margin-top: 15px;
+ }
+ .foulard4{
+     margin: 15px;
+ }
+ .robe1{
+     margin: 15px;
+ }
+
+.soldes-produits{
+    display: grid;
+    text-justify: 200;
+    justify-content: space-between;
+    min-height: 300;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2,400px);
+    margin: 100px;
+  
+}
+
+/*.habaya1{
+    background-image: url(../images/nos-produits/ABA1.png);
+    grid-column: 
+    grid-row: ;
+}
+
+.habaya2{
+    background-image: url(../images/nos-produits/ABA2.png);
+    grid-column: 
+    grid-row:
+}
+
+.habaya3{
+    background-image: url(../images/nos-produits/ABA3.png);
+    grid-column: 
+    grid-row:
+}
+
+.habaya4{
+    background-image: url(../images/nos-produits/ABA4.png);
+    grid-column: 
+    grid-row:
+}
+
+
+.accessoires3{
+    background-image: url(../images/nos-produits/Bonet1.png);
+    grid-column:*/
+}
+
+.accessoires4{
+    background-image: url(../images/nos-produits/bonnet\ blanc.png);
+    grid-column:
+}
+.accessoires2{
+    background-image: url(../images/nos-produits/ACC5.png);
+    grid-column:
+
+}
+    .accessoires1{
+    background-image: url(../images/nos-produits/ACC1.png);
+    grid-column:
+}
+
+
+.foulard1{
+    background-image: url(../images/nos-produits/F3.jpg);
+}
+.foulard2{
+    background-image: url(../images/nos-produits/F11.png);
+    
+}
+.foulard3{
+    background-image: url(../images/nos-produits/FN.png);
+    
+}
+.foulard4{
+    background-image: url(../images/nos-produits/F6.png);
+
+}
+
+
+.robe1{
+    background-image: url(../images/nos-produits/ROBE\ R.png);
+}
+.foulard2{
+    background-image: url(../images/nos-produits/F11.png);
+    
+}
+.foulard3{
+    background-image: url(../images/nos-produits/F2.png);
+    
+}
+.foulard4{
+    background-image: url(../images/nos-produits/F6.png);
+
+}
+
+.robe1{
+    background-image: url(../images/nos-produits/RVERT.png);
+
+}
+/* .robe2{
+    background-image: url(../images/nos-produits/RROUGE.png);
+
+}
+.robe3{
+    background-image: url(../images/nos-produits/ROBER.png);
+
+}
+
+.robe4{
+    background-image: url(../images/nos-produits/RB.png);
+
+}
+.voiles1{
+    background-image: url(../images/nos-produits/V1.png);
+
+}
+.voiles2{
+    background-image: url(../images/nos-produits/V2.png);
+
+}
+.voiles3{
+    background-image: url(../images/nos-produits/V3.png);
+
+}
+.voiles4{
+    background-image: url(../images/nos-produits/vb.png);
+
+} */
+
+
+
+
+/*  pieds de page*/
+
+footer {
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: space-between;
+    padding: 0 100px;
+    flex-wrap: wrap;
+    background-color: #BC2148;
+}
+
+.copyrights {
+    padding-right: 20px;
+}
+.number {
+    padding-left: 20px;
+}
+
+
+.mail {
+    color: red;
+    text-decoration: none;
+    font-weight: 600;
+}
+/*footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 180px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+footer a.cgv{
+    text-decoration: none;
+    color: black;
+    text-align: right;
+
+.add{
+        text-decoration: none;
+        color: black;
+        padding-left: 20px
+
+
+}
+
+/*partie mobilee*/
+
+/* Customisation du menu */
+.topnav a.icon {
+    background: black;
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+
+@media (max-width:700px){
+
+/* Customisation */
+
+.topnav {
+    /* overflow: hidden; */
+    background-color: #333;
+    /* position: relative; */
+  }
+  
+  /* .topnav #myLinks {
+    display: block;
+  } */
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  } */
+
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+nav.nav{
+    flex-direction:column;
+    height: 100%;
+    margin-left: 0;
+    align-items: center;
+    /* background-color: ;
+    display: block; */
+
+}
+
+nav.nav li{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+.soldes{
+    margin: -50px;   
+}
+.soldes-produits{
+    display: grid;
+    min-height: 100;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 400px);
+    background-color: ;
+}
+.Nos-produits{
+    margin: 50px;
+}
+
+.hijab-produits{
+    display: grid;
+    min-height: 150;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 400px);
+}
+.Nos-meilleurs{
+    margin: 70px;
+}
+.best-plants{
+    background-colorred;
+    min-height: 40px;
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    flex-wrap: wrap;
+}
+section.top-page{
+    background: url('../images/ABD.png');
+    height: 40vh;
+    background-size: cover;
+    padding-top: -60px;
+}
+
+/* Header customisation */
+
+header.header img {
+    width: 60px;
+    height: 60px;
+    display: none;
+    
+    }
+
+    /* Navigation customisation */
+    nav.nav{
+        display: none;
+    }
+
+    header.header{
+        display: flex;
+        flex-direction: column;
+        /* display: none; */
+       
+    }
+  
+    plant-details{
+        position: absolute;
+        width: 20%;
+        bottom: 0px;
+        background-color: rgb(236, 63, 63);
+        padding: 5px 15px;
+    }
+    .plant-name{
+        font-size: 15px;
+        font-weight: 300;
+        text-align: center;
+    }
+    .plant-price{
+        color:#BC2148;
+         font-weight: 800;
+        line-height: 12px;
+        font-weight: 1000;
+        font-size: 15px;
+        text-align: center;
+    }    
+
+    /* .footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 50px;
+        font-weight: 300;
+        text-align: left;
+        min-width: 50px;
+    }
+    footer a.cgv{
+        text-decoration: none;
+        color: black;
+        text-align: right;
+        font-size: 15px;
+    } */
+
+    .footer {
+            justify-content: center;
+        }
+    }
+}
+
+
+/*partie tablette*/
+
+
+
